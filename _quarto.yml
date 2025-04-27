@@ -1,0 +1,19 @@
+title: "UNICEF REPORT"
+
+project:
+  type: website
+  output-dir: docs
+
+format:
+  html:
+    echo: false
+    warning: false
+    message: false
+    embed-resources: true
+    code-fold: true
+    toc: true
+    toc-location: right
+    css: styles.css
+    include-in-header:
+      - text: |
+          <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Work+Sans:wght@400;700&display=swap" rel="stylesheet">
