@@ -1,0 +1,28 @@
+/* Force sidebar TOC links to be normal font and underlined */
+nav#TOC {
+    font-weight: 400 !important; /* force normal on whole nav */
+}
+
+nav#TOC a.nav-link {
+    text-decoration: underline !important;
+    color: black !important; /* normal color */
+}
+
+/* Optional: when hovering, change color to green */
+nav#TOC a.nav-link:hover {
+    color: rgb(73, 183, 91) !important;
+}
+
+nav#TOC * {
+    font-weight: normal !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Calisto MT', Georgia, serif;
+}
+
+h1.title {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 38px;
+    font-weight: normal;
+}
